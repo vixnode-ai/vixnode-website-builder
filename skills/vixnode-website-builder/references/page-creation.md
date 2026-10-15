@@ -753,13 +753,25 @@ The `layout` field is not required.
   "name": "Navigation Template",
   "pageType": "template",
   "fileName": "nav-template",
-  "html": "<nav><a href=\"/\">Home</a><a href=\"/about\">About</a><a href=\"/contact\">Contact</a></nav>"
+  "html": "<nav><a href=\"index\">Home</a><a href=\"about\">About</a><a href=\"contact\">Contact</a></nav>"
 }
 ```
+
+## Internal Page Links
+
+For creation and modification, internal links within the current project MUST use relative paths without a leading `/`. A root-relative URL such as `/about` resolves against the shared hosting domain root and loses the project's publication prefix. Do not add a `<base href="/">` that causes the same problem.
+
+- Resolve destinations from existing or approved pages and their actual `virtualPath` plus `fileName`; do not invent routes or append `.html` unless the returned published URL uses it.
+- From a page in the project root, use `index`, `about`, `contact`, or `products/detail` for those respective destinations.
+- From `products/detail`, use `../about` to reach the root-level `about` page, and `other` to reach `products/other`. Calculate the relative path from the rendered page URL, including for shared navigation inherited from a layout.
+- Preserve fragment links (`#section`), external absolute URLs, `mailto:`, and `tel:` links. Do not strip leading slashes from unrelated asset or API URLs.
+- When modifying navigation or page links, inspect existing internal links for domain-root paths and correct affected links to project-relative destinations before previewing.
 
 ## Validation Checklist
 
 Before generating a preview, verify all of the following:
+
+- [ ] Internal page links have no leading `/` and resolve to the intended page from its actual rendered path.
 
 - [ ] `project_id` was retrieved from the current project list.
 - [ ] `pageType` matches the intended operation.
