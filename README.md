@@ -19,8 +19,12 @@ Plan, design, preview, and publish VIXNODE websites from a plain-language brief.
 
 ## Setup
 
-1. Install the plugin.
-2. Connect the VIXNODE server when prompted and sign in to your VIXNODE account.
+1. Install the Claude plugin from this repository using a supported Claude plugin installation flow.
+2. The plugin includes `.claude-plugin/plugin.json` and `.mcp.json`, which configures the remote HTTP MCP server at `https://www.vixnode.com/mcp`.
+3. When Claude prompts for authorization, sign in to your VIXNODE account and grant the required access.
+4. Ask Claude to plan or edit a website; review previews and confirm changes before saving or publishing.
+
+The remote MCP server is hosted by VIXNODE; it is not bundled or run locally by this repository. Connection and OAuth behavior depend on the supported Claude client and the server configuration.
 
 ## Example prompts
 
