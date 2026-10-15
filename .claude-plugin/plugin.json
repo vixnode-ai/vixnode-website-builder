@@ -1,0 +1,11 @@
+{
+  "name": "vixnode-website-builder",
+  "version": "1.0.0",
+  "description": "Plan, design, preview, edit, and publish VIXNODE websites with guided workflows and remote MCP tools.",
+  "author": {
+    "name": "VIXNODE",
+    "url": "https://www.vixnode.com"
+  },
+  "homepage": "https://www.vixnode.com",
+  "repository": "https://github.com/vixnode-ai/vixnode-website-builder"
+}
