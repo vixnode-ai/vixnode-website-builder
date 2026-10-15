@@ -7,5 +7,6 @@
     "url": "https://www.vixnode.com"
   },
   "homepage": "https://www.vixnode.com",
-  "repository": "https://github.com/vixnode-ai/vixnode-website-builder"
+  "repository": "https://github.com/vixnode-ai/vixnode-website-builder",
+  "privacyPolicyUrl": "https://www.vixnode.com/Privacy"
 }
