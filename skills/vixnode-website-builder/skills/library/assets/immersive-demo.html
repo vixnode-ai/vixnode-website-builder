@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Passage - Lines, rhythm and space</title>
+  <link rel="stylesheet" href="immersive.css">
+  <style>body { margin: 0; background: #090e18; } .skip { position: absolute; top: -100px; z-index: 10; color: white; background: #090e18; padding: 16px; } .skip:focus { top: 0; }</style>
+  <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js"}}</script>
+</head>
+<body>
+<a class="skip" href="#chapter-one">Skip to the story</a>
+<main class="immersive-story" data-immersive-root>
+  <nav class="scene-nav" aria-label="Story navigation">
+    <span class="scene-wordmark">PASSAGE / LINES AND SPACE</span>
+    <div class="scene-chapter-links">
+      <a href="#chapter-one" data-scene-link>01 Origin</a>
+      <a href="#chapter-two" data-scene-link>02 Perspective</a>
+      <a href="#chapter-three" data-scene-link>03 Possibility</a>
+    </div>
+    <button type="button" data-scene-toggle aria-pressed="false" hidden>Enable 3D</button>
+  </nav>
+  <div class="scene-visual" aria-hidden="true">
+    <div class="scene-viewport" data-scene-viewport>
+      <div class="scene-poster">
+        <svg viewBox="0 0 700 700" fill="none" aria-hidden="true">
+          <circle cx="350" cy="350" r="260" stroke="currentColor" opacity=".25"/>
+          <ellipse cx="350" cy="350" rx="180" ry="260" stroke="currentColor" transform="rotate(35 350 350)"/>
+          <ellipse cx="350" cy="350" rx="180" ry="260" stroke="currentColor" transform="rotate(-35 350 350)"/>
+          <path d="M350 230 455 350 350 470 245 350Z" stroke="currentColor"/>
+          <path d="m350 230 0 240M245 350h210" stroke="currentColor" opacity=".5"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <section class="scene-chapter" id="chapter-one" data-scene-chapter>
+    <div class="scene-copy">
+      <p class="scene-eyebrow">Chapter 01 / Origin</p>
+      <h1>Follow a line.<br>Discover a space.</h1>
+      <p>Lines guide the eye. Planes create depth. Words give them meaning. Explore a composition that changes with your perspective, while leaving room to read.</p>
+      <a class="scene-action" href="#chapter-two">Explore the next perspective &darr;</a>
+    </div>
+  </section>
+  <section class="scene-chapter" id="chapter-two" data-scene-chapter>
+    <div class="scene-copy">
+      <p class="scene-eyebrow">Chapter 02 / Perspective</p>
+      <h2>Let the composition<br>find its rhythm.</h2>
+      <p>A quiet beginning opens into intersecting paths and measured geometry. The text changes sides, the visual density shifts, and one continuous line holds the story together.</p>
+      <a class="scene-action" href="#chapter-three">Discover what comes next &darr;</a>
+    </div>
+  </section>
+  <section class="scene-chapter" id="chapter-three" data-scene-chapter>
+    <div class="scene-copy">
+      <p class="scene-eyebrow">Chapter 03 / Possibility</p>
+      <h2>Make the whole<br>feel connected.</h2>
+      <p>Typography, color, motion and negative space belong to one design. Explore the spatial study, or choose an object-based view when the subject calls for it.</p>
+      <a class="scene-action" href="#studies">Choose a study &darr;</a>
+    </div>
+  </section>
+  <footer class="scene-footer" id="studies">
+    <p class="scene-eyebrow">Four studies / One design language</p>
+    <div class="scene-demo-modes" aria-label="Choose a study">
+      <a href="?scene=weave#chapter-one">Lines and space</a>
+      <a href="?scene=journey#chapter-one">Space</a>
+      <a href="?scene=product#chapter-one">Product</a>
+      <a href="?scene=exploded#chapter-one">Process</a>
+      <a href="#chapter-one">Back to the beginning</a>
+    </div>
+    <p class="scene-status" data-scene-status role="status" aria-live="polite">Text view available</p>
+    <noscript><p>The complete story is available above. Chapter links work without JavaScript.</p></noscript>
+  </footer>
+</main>
+<script type="module">
+  import { mountImmersive } from './immersive-runtime.js';
+  const requested = new URLSearchParams(location.search).get('scene');
+  const variant = ['weave', 'journey', 'product', 'exploded'].includes(requested) ? requested : 'weave';
+  const root = document.querySelector('[data-immersive-root]');
+  const view = mountImmersive(root, { variant, loadEngine: () => import('three') });
+  // A real SPA should call view.destroy() in its page/component unmount hook.
+  window.addEventListener('pagehide', () => view.destroy(), { once: true });
+</script>
+</body>
+</html>

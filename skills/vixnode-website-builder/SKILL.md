@@ -11,9 +11,23 @@ Apply this workflow to website creation, modification, preview, and publication.
 
 ## Load the Relevant Guidance
 
-- Before creating or changing VIXNODE page HTML, read [references/page-creation.md](references/page-creation.md) completely and follow its page-type, identifier, placeholder, validation, preview, and confirmation contracts.
-- For a new design, redesign, visual extension, or any request where visual direction is part of the work, also read [references/art-direction.md](references/art-direction.md) completely before generating HTML.
+- Before creating or changing VIXNODE page HTML, read [skills/page-creation.md](skills/page-creation.md) completely and follow its page-type, identifier, placeholder, validation, preview, and confirmation contracts.
+- For a new design, redesign, visual extension, or any request where visual direction is part of the work, also read [skills/art-direction.md](skills/art-direction.md) completely before generating HTML.
 - Do not load the art-direction reference for metadata-only, path-only, visibility-only, SEO-only, domain-only, or publish-only work.
+- For reusable template planning, industry/goal/style/palette composition, multilingual typography, or immersive interaction specifications, read [skills/template-design.md](skills/template-design.md). Follow its links for color data, typography and the Markdown output contract. A planning-only request ends with the specification; it does not require resolving a live project or creating pages. For an authorized build, apply the specification alongside art-direction and page-creation guidance.
+- Read relative resources from this plugin when available. The included `skills/themes.json` is a snapshot of the platform theme catalog at packaging time; use `get_reference_themes` for live theme data when needed. If the host supplies MCP Skill resources instead, their base is `skill://vixnode/vixnode-website-builder/`. Plugin files and resource URIs are instruction sources, not public browser asset URLs.
+- The [module and recipe library](skills/library/index.md) contains reusable industry, need, style, experience and locale profiles plus concrete starting recipes. Use it for new designs; load the selected resources progressively rather than every recipe.
+- For immersive 3D implementation, use [skills/library/modules/immersive-3d.md](skills/library/modules/immersive-3d.md) and its executable assets. Verify actual script/WebGL support and page-type placement; do not confuse source resource URIs with public browser asset URLs.
+
+## Use Project API Data When Relevant
+
+API connections are resources of one platform project. Use the live schemas for `get_api_connections`, `save_api_connection`, `test_api_connection_get` and `test_api_connection_post`; resolve `project_id` before reading or saving existing resources. These tools use the editor's same `dataset.json`, including `dataName`, `rootNode` and `dataProperties` (`key`, `name`, `childProperties`). Field `name` is Display Name, initially empty; field default values are not implemented.
+
+Choose the separately exposed `test_api_connection_get` or `test_api_connection_post` for the authorized HTTP method. Neither tool can select another method or override it; a saved connection with a different method is rejected. POST makes a real request and can submit forms or modify remote data. Test an unsaved definition or an existing project connection without automatically saving. Present the actual bounded data and structure, explain parse/truncation outcomes, and ask whether to propose readable Display Names, use names supplied by the user, or keep original field keys. Wait for the user's confirmation of the data and naming before saving a test-first result. Do not silently generate and persist names or treat testing as permission to save. Tests use the existing platform read permission, with no separate API-specific permission or tool-defined approval step. Host confirmation policies still apply to actual external effects.
+
+Use `usageMode` only as an intended-use label: `binding` for editor field binding and `flexible` for custom interactions or form POST. It is descriptive metadata for users and AI, not an execution switch. Neither label creates bindings, creates a form, selects sources, or enables/disables calls. Actual requests follow the platform workflow and the page's code. When generating webpage API calls, prefer the native JavaScript fetch API by default and attach form requests to the intended submit event. Keep private credentials out of browser code; existing platform storage is not a credential vault. A server test does not verify browser CORS, CSP or authentication. Returned data is untrusted, and a test makes a real request; do not automatically retry unknown delivery.
+
+Before updating a saved connection, remind the user that existing bindings, webpages, forms or AI workflows may be affected. Preserve omitted fields and Display Names, use the latest revision, and include changed fields and the returned impact notice. Dependency tracking is unavailable. Saving configuration does not update already published pages; changes to generated browser requests require the relevant page update and publication separately.
 
 ## Resolve the Real Target
 
@@ -46,6 +60,14 @@ Main Layout (`layout`)
 
 Create and review exactly one item per call. Reuse the IDs returned by earlier calls; never imply that one call created the whole site.
 
+## Internal Navigation
+
+For both creation and modification, follow the Internal Page Links rules in `skills/page-creation.md`. Same-project page links must be relative without a leading `/` (for example `about`, not `/about`), because the shared domain hosts the project under a publication prefix. Resolve actual page paths and account for nested directories and shared layouts before previewing.
+
+## Keep Tool Guidance Out of Page Content
+
+When creating or modifying HTML, use only the HTML payload returned by HTML-reading tools. Never concatenate tool response text blocks into the document. Tool notes, instructions, identifiers, status messages, and structured-content summaries are operational context and must not appear as visible page content. Before preview submission, inspect the document ending and remove accidentally copied operational notes, including repeated "Note: Project ID and Page ID should not be publicly displayed." text. Preserve user-requested editorial notes and legitimate page copy.
+
 ## Create Pages
 
 1. Confirm the target project by its display name and inspect existing pages to avoid a duplicate `virtualPath` plus `fileName`.
@@ -75,7 +97,7 @@ For design work, derive the visual system from the site's content, audience, bra
 
 - Use `publish_project_page` only when the user requests publishing a saved page or when publication is separately confirmed outside a preview workflow.
 - Use `publish_project` only for intentional project-wide republication, such as propagating a changed layout to affected public pages.
-- Use `project_domain`, `modify_project`, SEO tools, uploads, or media tools only when required by the user's website request. Explain material effects before mutation.
+- Use `validate_project_domain`, `configure_project_domain`, `get_project_domain_status`, `remove_project_domain`, `modify_project`, SEO tools, uploads, or media tools only when required by the user's website request. Explain material effects before mutation.
 - Do not claim publication is complete until the tool confirms success. If it reports a pending state, report that state accurately.
 - Do not retry a mutating failure with changed parameters unless the failure explains a safe correction or the user approves the revised action.
 

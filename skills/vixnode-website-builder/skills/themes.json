@@ -1,0 +1,498 @@
+[
+  {
+    "id": "Style-1",
+    "name": "Earthy Style",
+    "description": "Uses natural tones to create a warm and stable feel.",
+    "category": "Style",
+    "types": [ "Eco-friendly", "Health-related", "Organic" ],
+    "colors": [ "#8B4513", "#D2B48C", "#556B2F", "#F5DEB3", "#FFFFFF" ]
+  },
+  {
+    "id": "Style-2",
+    "name": "Ocean Style",
+    "description": "Dominated by shades of blue, creating a fresh and tranquil atmosphere.",
+    "category": "Style",
+    "types": [ "Travel", "Marine-related" ],
+    "colors": [ "#1E90FF", "#00CED1", "#4682B4", "#87CEEB", "#FFFFFF" ]
+  },
+  {
+    "id": "Style-3",
+    "name": "Minimalist Style",
+    "description": "Emphasizes simplicity and clarity, often using neutral colors.",
+    "category": "Style",
+    "types": [ "Tech", "Business" ],
+    "colors": [ "#000000", "#FFFFFF", "#808080", "#C0C0C0", "#F8F8F8" ]
+  },
+  {
+    "id": "Style-4",
+    "name": "Vintage Style",
+    "description": "Uses nostalgic color tones to create a classic and retro feel.",
+    "category": "Style",
+    "types": [ "Art", "Culture" ],
+    "colors": [ "#800000", "#FFDEAD", "#CD853F", "#8B0000", "#F5F5DC" ]
+  },
+  {
+    "id": "Style-5",
+    "name": "Vibrant Style",
+    "description": "Features bright and vivid colors to convey energy and youthfulness.",
+    "category": "Style",
+    "types": [ "Entertainment", "Fashion" ],
+    "colors": [ "#FF4500", "#FFD700", "#32CD32", "#1E90FF", "#FFFFFF" ]
+  },
+  {
+    "id": "Style-6",
+    "name": "Tech Style",
+    "description": "Uses cool tones and metallic textures to create a modern and futuristic feel.",
+    "category": "Style",
+    "types": [ "Tech", "Electronics" ],
+    "colors": [ "#0F52BA", "#4682B4", "#708090", "#A9A9A9", "#FFFFFF" ]
+  },
+  {
+    "id": "Style-7",
+    "name": "Elegant Style",
+    "description": "Soft and subtle colors create a luxurious and sophisticated feel.",
+    "category": "Style",
+    "types": [ "Wedding", "Jewelry", "High-end brand" ],
+    "colors": [ "#DA70D6", "#EEE8AA", "#F5F5DC", "#D3D3D3", "#FFFFFF" ]
+  },
+  {
+    "id": "Style-8",
+    "name": "Industrial Style",
+    "description": "Uses dark tones and metallic textures to create a rugged, modern look.",
+    "category": "Style",
+    "types": [ "Architecture", "Manufacturing" ],
+    "colors": [ "#2F4F4F", "#696969", "#A9A9A9", "#B0C4DE", "#FFFFFF" ]
+  },
+  {
+    "id": "Style-9",
+    "name": "Natural Style",
+    "description": "Green and brown tones evoke a fresh and organic feel.",
+    "category": "Style",
+    "types": [ "Agriculture", "Environmental" ],
+    "colors": [ "#228B22", "#8B4513", "#C2B280", "#A9A9A9", "#FFFFFF" ]
+  },
+  {
+    "id": "Style-10",
+    "name": "Nightfall Style",
+    "description": "Dark color schemes combined with cool tones create a mysterious and calm ambiance.",
+    "category": "Style",
+    "types": [ "Luxury brands", "Entertainment" ],
+    "colors": [ "#121212", "#1C1C1C", "#483D8B", "#00FFFF", "#FFFFFF" ]
+  },
+  {
+    "id": "Style-11",
+    "name": "Playful Style",
+    "description": "Uses bright and colorful tones to create a lively and fun visual effect.",
+    "category": "Style",
+    "types": [ "Children's" ],
+    "colors": [ "#FF69B4", "#FFD700", "#32CD32", "#87CEEB", "#FFFFFF" ]
+  },
+  {
+    "id": "Style-12",
+    "name": "Cinematic Style",
+    "description": "Combines black, gold, and red for a dramatic effect.",
+    "category": "Style",
+    "types": [ "Movie-related", "Entertainment" ],
+    "colors": [ "#000000", "#B22222", "#FFD700", "#696969", "#FFFFFF" ]
+  },
+  {
+    "id": "Style-13",
+    "name": "Urban Style",
+    "description": "Uses modern color combinations, suitable for technology, business, and news-related websites.",
+    "category": "Style",
+    "types": [ "Technology", "Business", "News" ],
+    "colors": [ "#1E1E1E", "#4682B4", "#C0C0C0", "#B0C4DE", "#FFFFFF" ]
+  },
+  {
+    "id": "Style-14",
+    "name": "Neon Tech Style",
+    "description": "Dark backgrounds with bright neon accents create a futuristic vibe.",
+    "category": "Style",
+    "types": [ "Gaming", "Tech" ],
+    "colors": [ "#000000", "#00FF00", "#FF00FF", "#00FFFF", "#FFD700" ]
+  },
+  {
+    "id": "Style-15",
+    "name": "Winter Style",
+    "description": "Cool tones evoke the purity and serenity of winter.",
+    "category": "Style",
+    "types": [ "Seasonal events" ],
+    "colors": [ "#00BFFF", "#4682B4", "#708090", "#E0FFFF", "#FFFFFF" ]
+  },
+  {
+    "id": "Style-16",
+    "name": "Spring Style",
+    "description": "Soft pink and green tones bring out the fresh atmosphere of spring.",
+    "category": "Style",
+    "types": [ "Beauty", "Lifestyle" ],
+    "colors": [ "#FFC0CB", "#98FB98", "#FFFACD", "#FFA07A", "#FFFFFF" ]
+  },
+  {
+    "id": "Style-17",
+    "name": "Autumn Style",
+    "description": "Warm earth tones reflect the coziness of autumn.",
+    "category": "Style",
+    "types": [ "Food", "Agriculture" ],
+    "colors": [ "#D2691E", "#CD5C5C", "#FFD700", "#8B4513", "#FFFFFF" ]
+  },
+  {
+    "id": "Style-18",
+    "name": "Summer Style",
+    "description": "Bright blues and yellows create a beachy, sunny vibe.",
+    "category": "Style",
+    "types": [ "Travel", "Events" ],
+    "colors": [ "#FFA500", "#1E90FF", "#FFD700", "#00CED1", "#FFFFFF" ]
+  },
+  {
+    "id": "Style-19",
+    "name": "Gothic Style",
+    "description": "Dark tones with high-contrast reds and purples create a mysterious, deep aesthetic.",
+    "category": "Style",
+    "types": [ "Fantasy", "Music" ],
+    "colors": [ "#2B2B2B", "#8B0000", "#800080", "#4B0082", "#FFFFFF" ]
+  },
+  {
+    "id": "Style-20",
+    "name": "Futuristic Style",
+    "description": "Uses metallic colors and cool tones to create a high-tech, futuristic feel.",
+    "category": "Style",
+    "types": [ "AI", "Technology" ],
+    "colors": [ "#1A1A1A", "#00FFFF", "#808080", "#B0C4DE", "#FFFFFF" ]
+  },
+  {
+    "id": "Style-21",
+    "name": "Cyberpunk Style",
+    "description": "Dark backgrounds with neon accents create a futuristic urban vibe.",
+    "category": "Style",
+    "types": [ "Gaming", "Tech-related" ],
+    "colors": [ "#000000", "#FF00FF", "#00FFFF", "#FFFF00", "#FFFFFF" ]
+  },
+  {
+    "id": "Style-22",
+    "name": "Soft Morandi Style",
+    "description": "Uses low-saturation, soft colors to create a gentle and comfortable visual experience.",
+    "category": "Style",
+    "types": [ "Art", "Design" ],
+    "colors": [ "#B8AFA2", "#C3B1E1", "#A7BEAE", "#E4C9C6", "#F6F4F2" ]
+  },
+  {
+    "id": "Style-23",
+    "name": "Japanese Wabi-Sabi Style",
+    "description": "Uses warm, natural tones with traditional Japanese aesthetics.",
+    "category": "Style",
+    "types": [ "Food", "Culture" ],
+    "colors": [ "#FFB6C1", "#2E4053", "#A0522D", "#F5DEB3", "#FFFFFF" ]
+  },
+  {
+    "id": "Industry-1",
+    "name": "Software & Tech",
+    "description": "A modern and innovative theme using cool tones and gradients to reflect cutting-edge technology.",
+    "category": "Industry",
+    "types": [ "IT", "Software", "Startups", "AI" ],
+    "colors": [ "#0F52BA", "#4682B4", "#708090", "#A9A9A9", "#FFFFFF" ]
+  },
+  {
+    "id": "Industry-2",
+    "name": "Education & Schools",
+    "description": "A professional yet friendly theme with warm blues, greens, and neutral colors, promoting trust and learning.",
+    "category": "Industry",
+    "types": [ "Schools", "Universities", "Online Learning" ],
+    "colors": [ "#1E90FF", "#32CD32", "#FFD700", "#F5F5F5", "#000000" ]
+  },
+  {
+    "id": "Industry-3",
+    "name": "Food & Restaurants",
+    "description": "A vibrant and appetizing theme with rich reds, oranges, and earthy tones, evoking warmth and deliciousness.",
+    "category": "Industry",
+    "types": [ "Restaurants", "Cafés", "Food Delivery" ],
+    "colors": [ "#D2691E", "#FF4500", "#FFD700", "#8B4513", "#FFFFFF" ]
+  },
+  {
+    "id": "Industry-4",
+    "name": "Healthcare & Medical",
+    "description": "A clean and calming theme with soft blues and greens to represent health, trust, and professionalism.",
+    "category": "Industry",
+    "types": [ "Hospitals", "Clinics", "Pharmaceuticals" ],
+    "colors": [ "#008080", "#00CED1", "#4682B4", "#F8F8F8", "#FFFFFF" ]
+  },
+  {
+    "id": "Industry-5",
+    "name": "Finance & Banking",
+    "description": "A strong and reliable theme using deep blues, greens, and golds to convey stability and trustworthiness.",
+    "category": "Industry",
+    "types": [ "Banks", "Investment Firms", "Insurance" ],
+    "colors": [ "#1E3A5F", "#2E8B57", "#FFD700", "#A9A9A9", "#FFFFFF" ]
+  },
+  {
+    "id": "Industry-6",
+    "name": "Retail & E-commerce",
+    "description": "A dynamic and engaging theme with bold colors that attract customers and encourage purchases.",
+    "category": "Industry",
+    "types": [ "Online Stores", "Shopping Platforms", "Marketplaces" ],
+    "colors": [ "#FF4500", "#FFD700", "#1E90FF", "#000000", "#FFFFFF" ]
+  },
+  {
+    "id": "Industry-7",
+    "name": "Real Estate & Property",
+    "description": "A sleek and elegant theme using earthy and neutral tones to convey professionalism and luxury.",
+    "category": "Industry",
+    "types": [ "Real Estate Agencies", "Property Listings", "Construction" ],
+    "colors": [ "#2F4F4F", "#A0522D", "#F5DEB3", "#808080", "#FFFFFF" ]
+  },
+  {
+    "id": "Industry-8",
+    "name": "Legal & Law Firms",
+    "description": "A formal and authoritative theme with dark blue, deep red, and gray, representing integrity and professionalism.",
+    "category": "Industry",
+    "types": [ "Law Firms", "Legal Advisors", "Corporate" ],
+    "colors": [ "#000080", "#8B0000", "#696969", "#D3D3D3", "#FFFFFF" ]
+  },
+  {
+    "id": "Industry-9",
+    "name": "Fashion & Beauty",
+    "description": "A stylish and elegant theme with pastel and luxurious colors, enhancing aesthetics and trends.",
+    "category": "Industry",
+    "types": [ "Fashion Brands", "Cosmetics", "Beauty Salons" ],
+    "colors": [ "#FFC0CB", "#FFD1DC", "#DA70D6", "#F5F5DC", "#FFFFFF" ]
+  },
+  {
+    "id": "Industry-10",
+    "name": "Entertainment & Media",
+    "description": "A bold and exciting theme with bright and contrasting colors to reflect creativity and energy.",
+    "category": "Industry",
+    "types": [ "Movies", "Music", "Streaming Platforms" ],
+    "colors": [ "#FF0000", "#800080", "#FFD700", "#000000", "#FFFFFF" ]
+  },
+  {
+    "id": "Industry-11",
+    "name": "Travel & Tourism",
+    "description": "A refreshing and adventurous theme using bright blues and warm yellows, evoking wanderlust and exploration.",
+    "category": "Industry",
+    "types": [ "Travel Agencies", "Hotels", "Tourism Boards" ],
+    "colors": [ "#1E90FF", "#00CED1", "#FFD700", "#FFA07A", "#FFFFFF" ]
+  },
+  {
+    "id": "Industry-12",
+    "name": "Automotive & Transport",
+    "description": "A sleek and modern theme with metallic and dark colors to represent speed and reliability.",
+    "category": "Industry",
+    "types": [ "Car Dealerships", "Transport Services", "Logistics" ],
+    "colors": [ "#2F4F4F", "#A9A9A9", "#B22222", "#000000", "#FFFFFF" ]
+  },
+  {
+    "id": "Industry-13",
+    "name": "Sports & Fitness",
+    "description": "A dynamic and energetic theme with bold reds, blues, and greens, promoting activity and motivation.",
+    "category": "Industry",
+    "types": [ "Gyms", "Sports Brands", "Athletic Events" ],
+    "colors": [ "#FF4500", "#1E90FF", "#32CD32", "#FFD700", "#FFFFFF" ]
+  },
+  {
+    "id": "Industry-14",
+    "name": "Non-Profit & Charity",
+    "description": "A warm and inviting theme with soft greens and blues, conveying compassion and community support.",
+    "category": "Industry",
+    "types": [ "Charities", "NGOs", "Fundraising" ],
+    "colors": [ "#228B22", "#87CEEB", "#FFD700", "#FFFFFF", "#808080" ]
+  },
+  {
+    "id": "Industry-15",
+    "name": "Agriculture & Farming",
+    "description": "A natural and organic theme with earthy greens and browns, reflecting sustainability and growth.",
+    "category": "Industry",
+    "types": [ "Farms", "Organic Food", "Agribusiness" ],
+    "colors": [ "#556B2F", "#8B4513", "#C2B280", "#A9A9A9", "#FFFFFF" ]
+  },
+  {
+    "id": "Industry-16",
+    "name": "Gaming & Esports",
+    "description": "A futuristic and high-energy theme with neon accents and dark backgrounds for an immersive experience.",
+    "category": "Industry",
+    "types": [ "Gaming Platforms", "Esports", "Streaming" ],
+    "colors": [ "#000000", "#FF00FF", "#00FFFF", "#FFD700", "#FFFFFF" ]
+  },
+  {
+    "id": "Industry-17",
+    "name": "Science & Research",
+    "description": "A sophisticated and innovative theme with cool and neutral tones, representing intelligence and discovery.",
+    "category": "Industry",
+    "types": [ "Research Labs", "Universities", "Medical Studies" ],
+    "colors": [ "#1C1C1C", "#00CED1", "#4682B4", "#A9A9A9", "#FFFFFF" ]
+  },
+  {
+    "id": "Industry-18",
+    "name": "Luxury & High-end Brands",
+    "description": "An elegant and refined theme with black, gold, and deep blues, reflecting exclusivity and prestige.",
+    "category": "Industry",
+    "types": [ "Luxury Fashion", "Jewelry", "High-end Products" ],
+    "colors": [ "#000000", "#FFD700", "#1E3A5F", "#D3D3D3", "#FFFFFF" ]
+  },
+  {
+    "id": "Industry-19",
+    "name": "Wedding & Events",
+    "description": "A romantic and elegant theme with soft pastels, warm whites, and gold, creating a dreamy atmosphere.",
+    "category": "Industry",
+    "types": [ "Wedding Planners", "Event Venues", "Photography" ],
+    "colors": [ "#FFF0F5", "#DA70D6", "#F5F5DC", "#FFD700", "#FFFFFF" ]
+  },
+  {
+    "id": "Industry-20",
+    "name": "Home & Interior Design",
+    "description": "A modern and minimalist theme with neutral and warm tones, showcasing elegance and comfort.",
+    "category": "Industry",
+    "types": [ "Interior Design", "Furniture", "Home Decor" ],
+    "colors": [ "#8B4513", "#D2B48C", "#F5F5F5", "#C0C0C0", "#FFFFFF" ]
+  },
+  {
+    "id": "Festival-1",
+    "name": "Christmas",
+    "description": "A festive theme with traditional red, green, and gold colors, creating a warm and joyful holiday atmosphere.",
+    "category": "Festival",
+    "types": [ "E-commerce", "Greeting cards", "Event promotions" ],
+    "colors": [ "#FF0000", "#008000", "#FFD700", "#FFFFFF", "#B22222" ]
+  },
+  {
+    "id": "Festival-2",
+    "name": "New Year's Eve",
+    "description": "A glamorous and celebratory theme with sparkling gold, silver, and deep blue tones, symbolizing new beginnings.",
+    "category": "Festival",
+    "types": [ "Events", "Party invitations", "Celebrations" ],
+    "colors": [ "#FFD700", "#C0C0C0", "#000080", "#FFFFFF", "#1C1C1C" ]
+  },
+  {
+    "id": "Festival-3",
+    "name": "Valentine's Day",
+    "description": "A romantic and passionate theme with shades of red, pink, and white, evoking love and affection.",
+    "category": "Festival",
+    "types": [ "E-commerce", "Greeting cards", "Gift shops" ],
+    "colors": [ "#FF69B4", "#FF0000", "#FFFFFF", "#800000", "#FFD1DC" ]
+  },
+  {
+    "id": "Festival-4",
+    "name": "Easter",
+    "description": "A cheerful and pastel-themed design featuring light pinks, blues, yellows, and greens to represent spring and renewal.",
+    "category": "Festival",
+    "types": [ "Children's events", "Seasonal sales", "Religious celebrations" ],
+    "colors": [ "#FFD700", "#98FB98", "#FFB6C1", "#87CEEB", "#FFFFFF" ]
+  },
+  {
+    "id": "Festival-5",
+    "name": "Halloween",
+    "description": "A spooky and playful theme with dark and vibrant colors like orange, black, purple, and neon green.",
+    "category": "Festival",
+    "types": [ "Event promotions", "Horror-themed", "E-commerce" ],
+    "colors": [ "#FF8C00", "#000000", "#8B008B", "#32CD32", "#FFFFFF" ]
+  },
+  {
+    "id": "Festival-6",
+    "name": "Thanksgiving",
+    "description": "A warm and cozy theme with autumn colors like deep orange, brown, and gold, representing gratitude and harvest.",
+    "category": "Festival",
+    "types": [ "Food blogs", "Seasonal sales", "Family events" ],
+    "colors": [ "#D2691E", "#CD5C5C", "#FFD700", "#8B4513", "#FFFFFF" ]
+  },
+  {
+    "id": "Festival-7",
+    "name": "Mother's Day",
+    "description": "A soft and elegant theme with pastel colors and floral elements to express love and appreciation for mothers.",
+    "category": "Festival",
+    "types": [ "Gift shops", "Greeting cards", "Personal blogs" ],
+    "colors": [ "#FFC0CB", "#FFD1DC", "#FFF0F5", "#F5DEB3", "#FFFFFF" ]
+  },
+  {
+    "id": "Festival-8",
+    "name": "Father's Day",
+    "description": "A strong yet warm theme with deep blues, grays, and neutral tones, symbolizing strength and appreciation for fathers.",
+    "category": "Festival",
+    "types": [ "Gift shops", "Greeting cards", "Personal blogs" ],
+    "colors": [ "#4682B4", "#2F4F4F", "#A9A9A9", "#D3D3D3", "#FFFFFF" ]
+  },
+  {
+    "id": "Festival-9",
+    "name": "Independence Day",
+    "description": "A patriotic theme featuring national colors like red, white, and blue, often associated with celebrations and fireworks.",
+    "category": "Festival",
+    "types": [ "Government", "Events", "Patriotic promotions" ],
+    "colors": [ "#FF0000", "#FFFFFF", "#0000FF", "#FFD700", "#1C1C1C" ]
+  },
+  {
+    "id": "Festival-10",
+    "name": "Chinese New Year",
+    "description": "A traditional and auspicious theme with red and gold, symbolizing prosperity, luck, and celebration.",
+    "category": "Festival",
+    "types": [ "Festive promotions", "Cultural events", "E-commerce" ],
+    "colors": [ "#FF0000", "#FFD700", "#8B0000", "#FFFFFF", "#B22222" ]
+  },
+  {
+    "id": "Festival-11",
+    "name": "Mid-Autumn Festival",
+    "description": "A serene and festive theme featuring moonlit blues, soft golds, and lantern-inspired colors.",
+    "category": "Festival",
+    "types": [ "Cultural events", "Festive promotions", "Food-related" ],
+    "colors": [ "#FFD700", "#8B4513", "#000080", "#F5DEB3", "#FFFFFF" ]
+  },
+  {
+    "id": "Festival-12",
+    "name": "April Fool's Day",
+    "description": "A fun and playful theme with bright, unexpected colors that reflect the humorous and surprising nature of the holiday.",
+    "category": "Festival",
+    "types": [ "Entertainment", "Social media", "Marketing campaigns" ],
+    "colors": [ "#FF4500", "#FFD700", "#32CD32", "#87CEEB", "#FFFFFF" ]
+  },
+  {
+    "id": "Festival-13",
+    "name": "Oktoberfest",
+    "description": "A festive and traditional German-themed design with deep blues, golds, and rustic browns, inspired by beer festivals.",
+    "category": "Festival",
+    "types": [ "Food & drink", "Event promotions", "Cultural festivals" ],
+    "colors": [ "#000080", "#FFD700", "#8B4513", "#FFFFFF", "#C0C0C0" ]
+  },
+  {
+    "id": "Festival-14",
+    "name": "Hanukkah",
+    "description": "A theme with traditional blue, white, and gold colors, symbolizing the festival of lights and Jewish heritage.",
+    "category": "Festival",
+    "types": [ "Religious celebrations", "Festive promotions" ],
+    "colors": [ "#000080", "#FFFFFF", "#FFD700", "#1E90FF", "#B0C4DE" ]
+  },
+  {
+    "id": "Festival-15",
+    "name": "Diwali",
+    "description": "A bright and colorful theme featuring deep reds, oranges, golds, and purples, representing the festival of lights.",
+    "category": "Festival",
+    "types": [ "Cultural celebrations", "Festive promotions" ],
+    "colors": [ "#FF4500", "#FFD700", "#800080", "#FF0000", "#FFFFFF" ]
+  },
+  {
+    "id": "Festival-16",
+    "name": "St. Patrick's Day",
+    "description": "A lively and festive theme dominated by green and gold, symbolizing Irish heritage and luck.",
+    "category": "Festival",
+    "types": [ "Events", "Pub promotions", "Festive marketing" ],
+    "colors": [ "#008000", "#FFD700", "#00FF00", "#8B4513", "#FFFFFF" ]
+  },
+  {
+    "id": "Festival-17",
+    "name": "Carnival",
+    "description": "A vibrant and energetic theme with bright reds, yellows, purples, and blues, reflecting the spirit of carnival festivals.",
+    "category": "Festival",
+    "types": [ "Entertainment", "Festivals", "Travel" ],
+    "colors": [ "#FF0000", "#FFD700", "#800080", "#1E90FF", "#FFFFFF" ]
+  },
+  {
+    "id": "Festival-18",
+    "name": "Black Friday",
+    "description": "A sleek and modern theme with black, gold, and red to create a sense of urgency and exclusivity for sales events.",
+    "category": "Festival",
+    "types": [ "E-commerce", "Retail", "Promotions" ],
+    "colors": [ "#000000", "#FFD700", "#B22222", "#A9A9A9", "#FFFFFF" ]
+  },
+  {
+    "id": "Festival-19",
+    "name": "Eid al-Fitr",
+    "description": "A festive and elegant theme with soft blues, greens, and golds, representing the joyous celebration of Eid.",
+    "category": "Festival",
+    "types": [ "Religious celebrations", "Cultural promotions" ],
+    "colors": [ "#1E90FF", "#008000", "#FFD700", "#F5DEB3", "#FFFFFF" ]
+  }
+]

@@ -1,7 +1,7 @@
 {
   "name": "vixnode-website-builder",
-  "version": "1.0.0",
-  "description": "Plan, design, preview, edit, and publish VIXNODE websites with guided workflows and remote MCP tools.",
+  "version": "3.5.0",
+  "description": "Plan, design, preview, edit and publish VIXNODE websites with reusable industry/style recipes, multilingual typography, immersive spatial design and project API data-source workflows.",
   "author": {
     "name": "VIXNODE",
     "url": "https://www.vixnode.com"

@@ -1,0 +1,16 @@
+interface:
+  display_name: "VIXNODE Website Builder"
+  short_description: "Plan, design, and build VIXNODE websites"
+  brand_color: "#7C3AED"
+  default_prompt: "Use $vixnode-website-builder to plan and build a VIXNODE website from my requirements."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "vixnode-mcp-server"
+      description: "Create, preview, modify, and publish VIXNODE websites"
+      transport: "streamable_http"
+      url: "https://www.vixnode.com/mcp"
+
+policy:
+  allow_implicit_invocation: true
